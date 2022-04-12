@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="territoryTitle">საპატრიარქოს მიერ მიღებული ტერიტორიები წლების მიხედვით</h1>
+    <div class="flex_container">
+            <div class="graph_container">
+                <div class="years_grid">
+                    <button class="previous"></button>
+                    <div class="year_2013 year_item">2013</div>
+                    <div class="year_2014 year_item">2014</div>
+                    <div class="year_2015 year_item">2015</div>
+                    <div class="year_2016 year_item">2016</div>
+                    <div class="year_2017 year_item">2017</div>
+                    <div class="year_2018 year_item">2018</div>
+                    <div class="year_2019 year_item">2019</div>
+                    <div class="year_2020 year_item">2020</div>
+                    <div class="year_2021 year_item">2021</div>
+                    <button class="next">
+                    </button>
+                </div>
+                <div class="chart_container">
+                    <canvas id="myChart"></canvas>
+                </div>
+
+            </div>
+            <div class="map_container"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="app.js"></script>    
+</body>
+</html>
