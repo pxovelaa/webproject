@@ -85,5 +85,11 @@ body{
       border-style: solid;
   }
 
+
+  /* maps */
+
+  #myImg {
+      width: inherit;
+  }
   
 

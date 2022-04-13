@@ -137,3 +137,28 @@ const previous  = document.querySelector(".previous")
 const next = document.querySelector(".next")
 previous.addEventListener("click", previousClick)
 next.addEventListener("click", nextClick)
+
+// maps js iqneba aq 
+
+function changeImg() {
+    let image = document.getElementById('myImg');
+    if (image.src.match("map_images/sul.png")) {
+        image.src = "map_images/2013.png";
+    }else if (image.src.match("map_images/2013.png")) {
+        image.src = "map_images/2014.png";
+    } else if (image.src.match("map_images/2014.png")) {
+        image.src = "map_images/2015.png";
+    } else if (image.src.match("map_images/2015.png")) {
+        image.src = "map_images/2016.png";
+    }else if (image.src.match("map_images/2016.png")) {
+        image.src = "map_images/2017.png";
+    } else if (image.src.match("map_images/2017.png")) {
+        image.src = "map_images/2018.png";
+    }else if (image.src.match("map_images/2018.png")) {
+        image.src = "map_images/2019.png";
+    }else if (image.src.match("map_images/2019.png")) {
+        image.src = "map_images/2020.png";
+    } else if (image.src.match("map_images/2020.png")) {
+        image.src = "map_images/2021.png";
+    }
+}
